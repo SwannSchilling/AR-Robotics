@@ -1,3 +1,32 @@
+/* Define the hover effect */
+.video-hover:hover {
+  /* Example hover effect */
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Disable hover effect on touch devices */
+@media (hover: none) {
+  .video-hover:hover {
+    transform: none;
+  }
+}
+
+/* Center the text and ensure proper spacing */
+.image-container {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.subtitle {
+  margin-top: 0.5rem;
+}
+
 body {
   font-family: 'Noto Sans', sans-serif;
 }
